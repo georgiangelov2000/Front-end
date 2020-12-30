@@ -1,0 +1,85 @@
+html,
+body {
+    background: #f7f1f1;
+    font-size: 1.1rem;
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+}
+ul{
+    margin: 0px;
+}
+.listElement{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container {
+    margin: 4rem auto;
+    padding: 2rem 3rem 3rem;
+    max-width: 500px;
+    background: #FF6666;
+    color: #FFF;
+    box-shadow: -20px -20px 0px 0px rgba(100, 100, 100, .1);
+}
+
+ul{
+    padding: 0px;
+}
+
+.container h1,
+h2 {
+    /*text-align:center;*/
+    font-weight: normal;
+    font-size: 2.6rem;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+#message {
+    width: 50%;
+    padding: 10px;
+    color: #FF6666;
+    font-weight: 100;
+    font-size: 1.5rem;
+    border: 0px;
+    outline: none;
+}
+
+.sendMessage {
+    width: 50%;
+    padding: 10px;
+    color: white;
+    background-color: #FF6666;
+    font-weight: 100;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    outline: none;
+}
+
+
+
+.sendMessage:hover {
+    background-color: white;
+    color: #FF6666;
+    outline: none;
+}
+
+.delete , .success {
+    width: 20%;
+    color: white;
+    background-color: #FF6666;
+    font-weight: 100;
+    font-size: 0.80rem;
+    border:none;
+    border-bottom: 1px solid white;
+    outline: none;
+    padding:10px 0px 10px 0px;
+}
+
+.doneElement{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
