@@ -1,0 +1,38 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.container{
+    margin: 250px auto;
+    width: 50%;
+}
+
+.quotes{
+    background: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.buttons{
+    width: 100%;
+}
+
+button {
+    background-color: white;
+    color: tomato;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    border-radius: .25rem;
+    border: 1px solid black;
+    outline: none;
+    width: 100%;
+    font-size: 2rem;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
