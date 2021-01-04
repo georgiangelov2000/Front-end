@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 250px auto;
+}
+    .day,
+    .hours,
+    .minutes,
+    .seconds {
+        font-family: 'Share Tech Mono', monospace;
+        color: #ffffff;
+        text-align: center;
+        color: #daf6ff;
+        text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+        font-size: 80px;
+        letter-spacing: 0.05em;
+    }
