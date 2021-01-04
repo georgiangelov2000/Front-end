@@ -6,6 +6,8 @@
 
         startButton.addEventListener('click', function (e) {
             timeScreen.textContent = '00:00';
+            startButton.disabled=true;
+            stopButton.disabled=false;
 
             interval = setInterval(function () {
                 let currentTime = timeScreen.textContent;
@@ -25,6 +27,8 @@
         });
 
         stopButton.addEventListener('click', function () {
-
+            stopButton.disabled=true;
+            startButton.disabled=false;
+            clearInterval(interval);
         })
     }
