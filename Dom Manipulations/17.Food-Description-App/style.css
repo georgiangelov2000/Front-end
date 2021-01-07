@@ -1,7 +1,6 @@
 html,
 body {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-
 }
 
 .container {
@@ -93,23 +92,22 @@ ul li {
     font-size: 0.900rem;
     line-height: 17px;
     text-decoration: none;
-    color: #0cadec;
+    background-color: dodgerblue;
     width: 100%;
-    background-color: white;
+    color: white;
     border: none;
     text-align: center;
     margin: 0px 0px 5px 0px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease-out;
+    cursor: pointer;
 }
 
-
-.inbox {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    display: none;
-    border: 1px solid lightgray;
+.recipe-main .active .product p:hover {
+    background-color: rgb(5, 129, 253);
 }
+
 
 .inbox delete {
     transition: background-color 0.5s ease-out;
@@ -125,5 +123,32 @@ ul .active {
 
 .recipe-main .active {
     display: flex;
-    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    height: auto;
+}
+
+span {
+    font-size: 0.800rem;
+    display: none;
+    font-weight: bold;
+}
+
+.inbox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+    border: 1px solid lightgray;
+    height: auto;
+}
+
+input {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    width: 100%;
 }
