@@ -1,6 +1,6 @@
 function solve() {
 
-    var input, filter, cards, cardContainer, h5, title, i;
+    var input, filter, cards, cardContainer, title, i;
     input = document.getElementsByClassName('form-control')[0];
     filter = input.value.toUpperCase();
     cardContainer = document.getElementById("myItems");
