@@ -1,0 +1,43 @@
+[
+    {
+        "name":"Rocky",
+        "year":"1976",
+        "src":"/images/rocky.jpg",
+        "starring":[
+            "Sylvestre Stallone",
+            "Talia Shire",
+            "Carl Weathers",
+            "Burgess Meredith"
+        ],
+        "budget":"$960,000",
+        "office":"$225 million"
+    },
+    {
+        "name":"Avengers",
+        "year":"2012",
+        "src":"/images/avengers.jpg",
+        "starring":[
+            "Robert Downey Jr",
+            "Chris Evans",
+            "Mark Ruffalo",
+            "Chris Hemsworth",
+            "Scarlett Johansson"
+        ],
+        "budget":"$220 million",
+        "office":"$1.519 billion"   
+    },
+    {
+        "name":"CREED",
+        "year":"2015",
+        "src":"/images/creed.jpg",
+        "starring":[
+            "Micheal B Jordan",
+            "Sylvestre Stallone",
+            "Tessa Thompson",
+            "Phylicia Rashdad",
+            "Anthony Bellew"
+        ],
+        "budget":"$35-40 million",
+        "office":"$173.6 million"
+    }
+]
