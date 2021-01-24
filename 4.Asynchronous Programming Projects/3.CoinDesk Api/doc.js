@@ -28,6 +28,8 @@ function loadBitcoin() {
             `<p><span></span>${data.time.updated}</p>`+
             `<p><span>By:</span>${data.disclaimer}</p>`
             addInfo.innerHTML=secondDiv
+        }).catch((error)=>{
+            alert(error)
         })
 }
 loadBitcoin()
