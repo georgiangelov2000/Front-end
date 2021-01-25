@@ -1,0 +1,41 @@
+[
+    {
+        "name":"Nike Air VaporMax",
+        "price":"£190.00",
+        "color":"Grey",
+        "src":"/images/Nike Air VaporMax.jpg",
+        "material":"Textile/Synthetic",
+        "code":"Product Code: 391303"
+        
+    },
+
+    {
+        "name":"Nike Legend Essential 2",
+        "price":"£55.00",
+        "color":"Black",
+        "src":"/images/Nike Legend Essential 2.jpg",
+        "material":"Textile/Synthetic",
+        "code":"Product Code: 393122"
+        
+    },
+
+    {
+        "name":"Nike Mc Trainer",
+        "price":"£65.00",
+        "color":"Black",
+        "src":"/images/Nike Mc Trainer.jpg",
+        "material":"Textile/Synthetic",
+        "code":"Product Code: 393098"
+    },
+
+    {
+        "name":"Nike Air Zoom Pegasus 37",
+        "price":"£105.00",
+        "color":"Black",
+        "src":"/images/Nike Air Zoom Pegasus 37.jpg",
+        "material":"Textile/Synthetic",
+        "code":"Product Code: 392683"
+        
+    }
+
+]
