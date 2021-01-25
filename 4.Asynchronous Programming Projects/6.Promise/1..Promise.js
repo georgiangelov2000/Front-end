@@ -10,3 +10,4 @@ new Promise(function (success, fail) {
     });
     
 console.log('After promise')
+
