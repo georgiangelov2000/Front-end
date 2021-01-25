@@ -1,0 +1,17 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.618rem;
+    font-weight: bolder;
+}
+h1{
+    text-align: center;
+}
+.characters{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 5rem;
+}
