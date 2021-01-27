@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+    <script src="data.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Register Form</h1>
+
+    <h2 id="register-message"></h2>
+
+    <form id="register-form">
+
+        <div class="container">
+          <label for="register-em"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="register-em" id="reg-em" >
+      
+          <label for="register-psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="register-psw" id="reg-pass" >
+              
+          <button type="submit" id="register-btn">Register</button>
+        </div>
+      </form>
+
+
+
+      <h1>Login Form</h1>
+
+      <h2 id="login-message"></h2>
+
+      <form id="login-form">
+
+        <div class="container">
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="em" >
+      
+          <label for="pass-psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="pass-psw" id="pass" >
+              
+          <button type="submit" id="login-btn">Login</button>
+        </div>
+      </form>
+
+    <script src="auth.js"></script>
+</body>
+</html>
