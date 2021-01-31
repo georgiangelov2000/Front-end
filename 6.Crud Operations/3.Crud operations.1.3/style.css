@@ -1,0 +1,74 @@
+body{
+    line-height: 1.618rem;
+    font-size: 1.rem;
+    font: 20px/1.4 'Mulish', sans-serif;
+    color: #333;
+}
+
+#myForm{
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+#myForm input:nth-child(1){
+    border-radius: .2em;
+    border: 1px solid #eee;
+    padding: 15px 0px 15px 0px;
+    flex:3;
+    text-align: center;
+}
+#myForm input:nth-child(2){
+    border-radius: .2em;
+    border: 1px solid #eee;
+    padding: 15px 0px 15px 0px;
+    flex:1;
+    background: #70b3ff;
+    color: #fff;
+    border-radius: 0;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+.container{
+    padding: 30px;
+}
+.container ul{
+    padding: 0px;
+    width: 100%;
+}
+.container li{
+    list-style: none;
+    padding:20px 0px 20px 0px;
+    margin: 0 0 10px;
+    border-radius: .2em;
+    border: 1px solid #eee;
+    width: 100%;
+}
+li button:nth-child(2){
+    color: white;
+    background: #70b3ff;
+    border: 0;
+    cursor: pointer;
+    transition: opacity 0.3s linear;
+    padding:10px ;
+    width: 10%;
+}
+
+li button:nth-child(3){
+    color: white;
+    background:tomato;
+    border: 0;
+    cursor: pointer;
+    transition: opacity 0.3s linear;
+    padding:10px ;
+    width: 10%;
+}
