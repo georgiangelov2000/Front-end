@@ -1,10 +1,10 @@
 {{#each books}}
 <div class="bookInformation">
-    <p>{{name}}</p>
+    <img src="{{imgSrc}}" alt="">
+    <p>Name: {{name}}</p>
     <p>{{publishingHouse}}</p>
-    <p>{{price}}</p>
+    <p>Price: {{price}}</p>
     <p>{{description}}</p>
-    <button>{{buttonList}}</button>
-    <button>{{buttonInfo}}</button>
+    <button id="btnList">{{buttonList}}</button>
 </div>
 {{/each}}
