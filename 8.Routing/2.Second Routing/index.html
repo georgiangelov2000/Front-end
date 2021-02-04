@@ -22,7 +22,6 @@
         function navigate (e,url){
             e.preventDefault();
             history.pushState({},'',url)
-            console.log(history)
             rootElement.innerHTML=router[location.pathname] || `<h2>Not found</h2>`
         }
     </script>
