@@ -1,0 +1,126 @@
+[
+    [{
+            "imgSrc":"/images/sofabeds/adnieloLuks.jpg",
+            "name": "Adnielo Lux",
+            "description": "Sofa bed, yellow",
+            "price": "899$"
+        },
+        {
+            "imgSrc":"/images/sofabeds/rolo.jpg",
+            "name": "Roli",
+            "description": "Sofa bed, beige",
+            "price": "548$"
+        },
+        {
+            "imgSrc":"/images/sofabeds/katrin.pg",
+            "name": "Katrin",
+            "description": "Sofa bed, light brown",
+            "price": "611$"
+        },
+        {
+            "imgSrc":"/images/sofabeds/estel.jpg",
+            "name": "Estel",
+            "description": "Sofa bed, dark beige",
+            "price": "550$"
+        },
+        {
+            "imgSrc":"/images/sofabeds/justin.jpg",
+            "name": "Justin",
+            "description": "Sofa bed, dark brown",
+            "price": "547$"
+        },
+        {
+            "imgSrc":"/images/sofabeds/havana.jpg",
+            "name": "Havana",
+            "description": "Sofa bed, turquoise",
+            "price": "1179$"
+        },
+        {
+            "imgSrc":"/images/sofabeds/avesta.jpg",
+            "name": "Avesta 2",
+            "description": "Sofa bed, pink",
+            "price": "1445$"
+        },
+        {
+            "imgSrc":"/images/sofabeds/daniM.jpg",
+            "name": "Dani M",
+            "description": "Dark Blue",
+            "price": "371$"
+        },
+        {
+            "imgSrc":"/images/sofabeds/viva.jpg",
+            "name": "Viva",
+            "description": "Sofa bed, gray",
+            "price": "673$"
+        },
+        {
+            "imgSrc":"/images/sofabeds/princes.jpg",
+            "name": "Princes",
+            "description": "Sofa bed, dark beige + brown leather",
+            "price": "772$"
+        }
+    ],
+
+    [
+        {
+            "imgSrc":"/images/kitchen/mini.jpg",
+            "name": "Mini",
+            "description": "Kitchen, White+oak sonoma",
+            "price": "500$"
+        },
+        {
+            "imgSrc":"/images/kitchen/poli.jpg",
+            "name": "Poli",
+            "description": "Kitchen, wenge + white",
+            "price": "548$"
+        },
+        {
+            "imgSrc":"/images/kitchen/luce.jpg",
+            "name": "Luce",
+            "description": "Kitchen, stone gray + sonoma",
+            "price": "320$"
+        },
+        {
+            "imgSrc":"/images/kitchen/lora5.jpg",
+            "name": "Lora 5",
+            "description": "Kitchen, white gloss + oak evok",
+            "price": "570$"
+        },
+        {
+            "imgSrc":"/images/kitchen/iberia.jpg",
+            "name": "Iberia",
+            "description": "Kitchen, Sonoma oak + white gloss",
+            "price": "430$"
+        },
+        {
+            "imgSrc":"/images/kitchen/daria.jpg",
+            "name": "Daria",
+            "description": "Kitchen, antique oak + glossy anthracite",
+            "price": "250$"
+        },
+        {
+            "imgSrc":"/images/kitchen/tereza.jpg",
+            "name": "Tereza",
+            "description": "Kitchen, white + oak cocoa",
+            "price": "350$"
+        },
+        {
+            "imgSrc":"/images/kitchen/selectDelux.jpg",
+            "name": "Select Delux",
+            "description": "Kitchen, Silk + oak Cognac",
+            "price": "450$"
+        },
+        {
+            "imgSrc":"/images/kitchen/mirela.jpg",
+            "name": "Mirela",
+            "description": "Kitchen, 3 meters dark cherry",
+            "price": "250$"
+        },
+        {
+            "imgSrc":"/images/kitchen/jana.jpg",
+            "name": "Jana",
+            "description": "Kitchen, white + sonoma oak",
+            "price": "350$"
+        }
+    ]
+]
