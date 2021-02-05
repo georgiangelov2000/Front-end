@@ -1,0 +1,17 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.user{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+li{
+   list-style-type: none; 
+}
+h1{
+    text-align: center;
+}

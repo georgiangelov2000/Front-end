@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name":"George",
+        "city":"Plovdiv"
+    },
+    {
+        "id":2,
+        "name":"Ivan",
+        "city":"Plovdiv"
+    },
+    {
+        "id":3,
+        "name":"Petkan",
+        "city":"Stara Zagora"
+    },
+    {
+        "id":4,
+        "name":"Dragan",
+        "city":"Vraca"
+    },
+    {
+        "id":5,
+        "name":"Yoan",
+        "city":"Yambol"
+    },
+    {
+        "id":6,
+        "name":"Steven",
+        "city":"Svishtov"
+    }
+]
