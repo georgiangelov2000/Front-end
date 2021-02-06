@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routing</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a href="/home">Home</a>
+            </li>
+            <li>
+                <a href="/create">Create</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="app">
+        <form class="createForm" style="display: none;" >
+            <label for="name">Name of the book:
+                <input type="text" name="name" id="name" />
+            </label>
+            <label for="description">Description of the book:
+                <input type="text" name="description" id="description" />
+            </label>
+            <label for="price">Price of the book:
+                <input type="number" name="price" id="price" />
+            </label>
+            <label for="image">Image Src:
+                <input type="text" name="image" id="image" />
+            </label>
+            <input type="submit" value="Submit" />
+        </form>
+
+        <div class="book-system" style="display:none;">
+            
+        </div>
+    </div>
+
+    <script src="template.js"></script>
+    <script src="app.js"></script>
+    <script src="config.js"></script>
+</body>
+
+</html>
