@@ -26,10 +26,10 @@ async function renderSofaBeds(url){
         }
         output+=
         `<div class="product">`+
-        `<img src="${obj.imageEl}" alt="" </p>`+
+        `<img src="${obj.imageEl}" alt="">`+
         `<p class="nameElement"><small>Name:</small>${obj.nameEl}</p>`+
         `<p class="descriptionElement"><small>Description:</small>${obj.descriptionEl}</p>`+
-        `<p class="priceElement"><small>Price:</small>${obj.priceEl}<small>$</small></p>`+
+        `<p class="priceElement">${obj.priceEl}</p>`+
         `<button class="buyButton">Buy</button>`+
         `</div>`
         parentElements.sofaBedsContainer().innerHTML=output;
@@ -54,10 +54,10 @@ async function renderKitchens(url){
             priceEl
         }
         output+=`<div class="product">`+
-        `<img src="${obj.imageEl}" alt="" </p>`+
+        `<img src="${obj.imageEl}" alt="">`+
         `<p class="nameElement"><small>Name:</small>${obj.nameEl}</p>`+
         `<p class="descriptionElement"><small>Description:</small>${obj.descriptionEl}</p>`+
-        `<p class="priceElement"><small>Price:</small>${obj.priceEl}<small>$</small></p>`+
+        `<p class="priceElement">${obj.priceEl}</p>`+
         `<button class="buyButton">Buy</button>`+
         `</div>`
         parentElements.kitchensContainer().innerHTML=output
@@ -82,10 +82,10 @@ async function entranceHall(url){
             priceEl
         }
         output+=`<div class="product">`+
-        `<img src="${obj.imageEl}" alt="" </p>`+
+        `<img src="${obj.imageEl}" alt="">`+
         `<p class="nameElement"><small>Name:</small>${obj.nameEl}</p>`+
         `<p class="descriptionElement"><small>Description:</small>${obj.descriptionEl}</p>`+
-        `<p class="priceElement"><small>Price:</small>${obj.priceEl}<small>$</small></p>`+
+        `<p class="priceElement">${obj.priceEl}</p>`+
         `<button class="buyButton">Buy</button>`+
         `</div>`
         parentElements.entranceHallContainer().innerHTML=output
