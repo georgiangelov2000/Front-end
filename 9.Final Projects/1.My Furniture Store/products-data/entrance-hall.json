@@ -1,0 +1,50 @@
+[
+    {
+        "imgSrc":"/images/entrance hall/beko2.jpg",
+        "name": "Beko 2",
+        "description": "Shoe cabinet Sonoma oak + gloss antracite",
+        "price": "300$"
+    },
+    {
+        "imgSrc":"/images/entrance hall/dasen.jpg",
+        "name": "Dasen",
+        "description": "wenge + sonoma oak",
+        "price": "340$"
+    },
+    {
+        "imgSrc":"/images/entrance hall/velmar.jpg",
+        "name": "Velmar",
+        "description": "Portmanteau Sonoma oak + white gloss",
+        "price": "320$"
+    },
+    {
+        "imgSrc":"/images/entrance hall/linea.jpg",
+        "name": "Linea",
+        "description": "Hanger oak evok + Silk",
+        "price": "340$"
+    },
+    {
+        "imgSrc":"/images/entrance hall/domino.jpg",
+        "name": "Domino",
+        "description": "Portmanteu wenge + sonoma oak",
+        "price": "350$"
+    },
+    {
+        "imgSrc":"/images/entrance hall/geo.jpg",
+        "name": "Geo",
+        "description": "Portmanteu wenge + sonoma white",
+        "price": "360$"
+    },
+    {
+        "imgSrc":"/images/entrance hall/leila.jpg",
+        "name": "Leila",
+        "description": "Hanger, wenge",
+        "price": "370$"
+    },
+    {
+        "imgSrc":"/images/entrance hall/mirel.jpg",
+        "name": "Mirel",
+        "description": "Portmanteau Alaska + white gloss",
+        "price": "490$"
+    }
+]

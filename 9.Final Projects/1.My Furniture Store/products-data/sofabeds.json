@@ -1,0 +1,50 @@
+[
+    {
+        "imgSrc":"/images/sofabeds/adnieloLuks.jpg",
+        "name": "Adnielo Lux",
+        "description": "Sofa bed, yellow",
+        "price": "899"
+    },
+    {
+        "imgSrc":"/images/sofabeds/roli.jpg",
+        "name": "Roli",
+        "description": "Sofa bed, beige",
+        "price": "548"
+    },
+    {
+        "imgSrc":"/images/sofabeds/katrin.jpg",
+        "name": "Katrin",
+        "description": "Sofa bed, light brown",
+        "price": "611"
+    },
+    {
+        "imgSrc":"/images/sofabeds/estel.jpg",
+        "name": "Estel",
+        "description": "Sofa bed, dark beige",
+        "price": "550"
+    },
+    {
+        "imgSrc":"/images/sofabeds/justin.jpg",
+        "name": "Justin",
+        "description": "Sofa bed, dark brown",
+        "price": "547"
+    },
+    {
+        "imgSrc":"/images/sofabeds/havana.jpg",
+        "name": "Havana",
+        "description": "Sofa bed, turquoise",
+        "price": "1179"
+    },
+    {
+        "imgSrc":"/images/sofabeds/avesta.jpg",
+        "name": "Avesta 2",
+        "description": "Sofa bed, pink",
+        "price": "1445"
+    },
+    {
+        "imgSrc":"/images/sofabeds/daniM.jpg",
+        "name": "Dani M",
+        "description": "Dark Blue",
+        "price": "371"
+    }
+]
