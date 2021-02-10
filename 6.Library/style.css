@@ -1,0 +1,60 @@
+body{
+    font-size: 0.900rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.list{
+    background-color: grey;
+    height: 250px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.booksLibrary{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+}
+.bookInformation{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid grey;
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.bookInformation p{
+    margin: 5px;
+}
+.bookInformation p:nth-child(5){
+    height: -webkit-fill-available;
+
+}
+#btnList{
+    background-color: dodgerblue;
+    color:white;
+    border: 1px solid grey;
+    padding: 10px 0px 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+#btnInfo{
+    background-color: tomato;
+    color: white;
+    border: 1px solid grey;
+    padding: 10px 0px 10px;
+    width: 100%;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
