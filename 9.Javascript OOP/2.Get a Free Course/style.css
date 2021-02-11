@@ -1,0 +1,82 @@
+#app {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.618rem;
+}
+
+#myForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#myForm input[type='submit'] {
+    background-color: dodgerblue;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    width: 50%;
+    height: 30px;
+}
+
+#myForm input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#myForm label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+}
+
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+img {
+    width: 100px;
+}
+
+table button {
+    background: tomato;
+    color: white;
+    height: 30px;
+    border: 1px solid lightgray;
+}
+#courses-list{
+    width: 100%;
+}
+img{
+    width: 100px;
+    height: 50px;
+}
+.information{
+    font-size: 2rem;
+    text-align: center;
+}
